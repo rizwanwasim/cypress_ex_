@@ -8,7 +8,7 @@
 
 
     openPage(url, text){
-      // cy.visit('https://admin.demo.litmusscale.com/')
+  
       cy.visit(url)
       cy.wait(2)
       // cy.get('.mt-2').should('have.text',text)
@@ -39,35 +39,3 @@
       cy.end()
     }
   }
-    // cy.contains('User Name/Email')
-    // cy.visit('https://admin.demo.litmusscale.com/')
-    // cy.get('.MuiInputBase-root')
-    // cy.get(username_box).type('rizwan.wasim@eurustechnologies.com')
-    // cy.get(':nth-child(2) > .css-tzsjye > .MuiFormLabel-root')
-    // cy.get(password_box).type('StarGate22_@')
-    // cy.wait(1)
-    // cy.get('#login-btn').click()
-    // cy.wait(3)
-    // cy.url().should('include', '/dashboard')
-    // // print('welcome message is shown')
-    // // End the test and move on to the next one
-    // cy.end()
-  // })
-  // it('Login Form is displayed',() => {
-    // cy.wait(2)
-    // // cy.contains('User Name/Email')
-    // cy.visit('https://admin.demo.litmusscale.com/')
-    // // cy.get('.MuiInputBase-root')
-    // cy.get('#textfield-username').type('rizwan.wasim@eurustechnologies.com')
-    // // cy.get(':nth-child(2) > .css-tzsjye > .MuiFormLabel-root')
-    // cy.get('#textfield-password').type('StarGate22_@')
-    // cy.wait(1)
-    // cy.get('#login-btn').click()
-    // cy.wait(3)
-    // cy.url().should('include', '/dashboard')
-    // Close the browser window when the test finishes
-    // cy.visit('about:blank')
-  // }
-//   )
-// })
-// }
